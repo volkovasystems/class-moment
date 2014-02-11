@@ -44,7 +44,10 @@ Moment.prototype.when = function when( eventName, eventCondition, eventListener 
 		@end-meta-configuration
 
 		@method-documentation:
+			Events fire with specific conditions for activation,
+				will be handled by this when function.
 
+			The event name format will be like this.
 		@end-method-documentation
 	*/
 };
